@@ -1,0 +1,63 @@
+.subarra{
+	display: none;
+	position: absolute;
+	top:82px;
+	background-color: #5FB404;
+	height: 269px;
+	width: 80px;
+	z-index: 5;
+	left: -5px;
+	border: 5px solid chartreuse;
+}
+.logo:hover	.subarra{
+	display: block;
+}
+.icono1{
+position: relative;
+top: 5px;
+left: 5px;
+z-index: 6;
+
+}
+.icono2{
+position: relative;
+top: 35px;
+left: 5px;
+z-index: 6;
+}
+.icono3{
+position: relative;
+top: 65px;
+left: 5px;	
+z-index: 6;
+}
+.foto1{
+	height: 60px;
+	width: 60px;
+	z-index: 7;
+	border: 3px solid chartreuse;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	transition: .2s;
+}
+.icono1:hover .foto1{
+	transition: .2s;
+	border: 3px solid white;
+	border-left:3px solid black;
+	border-right: 3px solid black;
+	border-radius: 20px;
+}
+.icono2:hover .foto1{
+	transition: .2s;
+	border: 3px solid white;
+	border-left:3px solid black;
+	border-right: 3px solid black;
+	border-radius: 20px;
+}
+.icono3:hover .foto1{
+	transition: .2s;
+	border: 3px solid white;
+	border-left:3px solid black;
+	border-right: 3px solid black;
+	border-radius: 20px;
+}
